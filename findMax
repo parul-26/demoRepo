@@ -1,0 +1,18 @@
+public class FindMax {
+    public static void main(String[] args) {
+        int[] numbers = {5, 8, 3, 12, 9, 6}; // Example array of numbers
+
+        // Initialize max with the first element of the array
+        int max = numbers[0];
+
+        // Iterate through the array to find the maximum value
+        for (int i = 1; i < numbers.length; i++) {
+            if (numbers[i] > max) {
+                max = numbers[i];
+            }
+        }
+
+        System.out.println("The maximum value in the array is: " + max);
+    }
+}
+
